@@ -18,4 +18,4 @@ async def on_ready():
 async def hello(ctx): #gives access to author channel message
     await ctx.send(f"Hi {ctx.author.name}! 👋")
 
-bot.run("TOKEN")
+bot.run(TOKEN)
